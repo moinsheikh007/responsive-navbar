@@ -111,3 +111,66 @@ section {
 .btn:hover {
     background-color: var(--black);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== Mobile Device ==== */
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-bar {
+        display: inline-block;
+    }
+    .navbar {
+        position: absolute;
+        top: -450px;
+        left: 0;
+        right: 0;
+    }
+    .navbar.active {
+        top: 99%
+    }
+    .navbar a {
+        display: block;
+        background-color: var(--white);
+        padding: 2rem;
+        /* border-left: var(--border); */
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
