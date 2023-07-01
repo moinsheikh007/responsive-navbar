@@ -8,6 +8,7 @@
     border: none;
     list-style: none;
     text-transform: capitalize;
+    transition: 0.5s ease;
 }
 :root {
     --main-color: #2980b9;
@@ -112,6 +113,37 @@ section {
     background-color: var(--black);
 }
 
+
+/* ==== Footer Section ==== */
+
+.footer .foot {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1.5rem;
+}
+.footer .foot .bx {
+    padding: 1rem;
+}
+.footer .foot .bx h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer .foot .bx p {
+    font-size: 1.5rem;
+}
+.footer .foot .bx p:hover {
+    transform: translateX(5px);
+}
+.footer .copyright {
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--white);
+    padding: 2rem 0;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
 
 
 
